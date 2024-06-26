@@ -10,3 +10,5 @@ Welcome to the general exam preparation website! Structure of the website:
 3. The top right corner menu is hard coded into each website. If you want to add or edit that menu, you will have to edit every individual page so it remains consistent.
    
 4. This website template was downloaded from html5 UP and is called "Phantom". Thanks to them for the free templates!
+   
+5. THE GENERIC HTML FILE is being kept in the project just incase it is needed. It is not being used. 
