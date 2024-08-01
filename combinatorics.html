@@ -3,6 +3,9 @@
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+	Added: Color Scheme made from https://www.colorxs.com/palette/editor/420f2c-6c1847-952263-bf2b7e-d64797-df71af-e89bc6?scheme=monochromatic
 -->
 <html>
 	<head>
@@ -11,6 +14,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- The below is used for LaTex print and syntax. You must use \( \) to enter inline math mode. -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -51,20 +59,66 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Combinatorics, Graph Theory, Matroid Theory</h1>
-							<h2 style="color: #BF2B7E;">Reccommended Texts or Study Materials </h2>
-							<p> A book  <br />
-							A paper </p>
+							<h2 style="color: #BF2B7E;">Recommended Texts or Study Materials </h2>
+
+							<ul>
+								<li> Matroid Theory, Oxley.    </li>
+								<li> Graph Theory, Diestel. </li>
+								<li> Graph Theory, Douglas West. </li>
+								<li> Guolis notes for any course given by Guoli. </li>
+							</ul>
 							
 							<h2 style="color: #BF2B7E;">Foundational Tools/Techniques/Ideas: </h2>
-							<p> a tool </p>
+							<h4 style="color: #E89BC6;"> Topics </h4>
+							<ul> 
+								<li> Graph Theory </li>
+								<li> Matroid Theory </li>
+								<li> Linear Algebra </li>
+								<li> Linear Programs </li>
+							</ul>
+
+							<h4 style="color: #E89BC6;"> Techniques and Tools</h4>
+							<ul> 
+								<li> Induction </li>
+								<li> Minimal counterexamples </li>
+								<li> Counting/enumeration </li>
+								<li> Graph and Matroid operations (edge deletion, edge contraction, vertex deletion, etc.)</li>
+							</ul>
 							
 							
 							<h2 style="color: #BF2B7E;"> Common Advisors and Committee Members </h2>
-							<p> A professor <br />
-							Another professor </p>
+					
+								<table>
+									<thead>
+										<tr>
+										  <th class="left-align"> Advisor </th>
+										  <th class="left-align"> Committee Member 1 </th>
+										  <th class="left-align"> Committee Member 2 </th>
+										</tr>
+									  </thead>
+									  <tbody>
+									<tr>
+										<td class="left-align"> Dr. Guoli Ding </td>
+										<td class="left-align"> Dr. James Oxley </td>
+										<td class="left-align"> Dr. Zhiyu Wang </td>
+									  </tr>
+									<tr>
+									  <td class="left-align">  Dr. James Oxley </td>
+									  <td class="left-align"> Dr. Guoli Ding </td>
+									  <td class="left-align"> Dr. Zhiyu Wang </td>
+									</tr>
+								  </table>
 							
 							<h2 style="color: #BF2B7E;">Previously asked questions</h2>
-							<p> What is math? </p>
+							<ul>  
+								<li> Give an example of a non-representable matroid. </li>
+								<li> Linear program solutions as they apply to matroid polytopes. </li>
+								<li> Is matroid \( M(G) \) graphic? Why or why not? </li>
+								<li> What is an example of a (non)-represenatble matroid? Prove it. </li>
+								<li> Coloring and flows on a given graph. </li>
+								<li> Coloring and flow conjectures and theorems. </li>
+								<li> Connectivity of Matroids and Graphs. What about related graphs through matroid/graph operations? </li>
+							</ul>
 						</div>
 					</div>
 

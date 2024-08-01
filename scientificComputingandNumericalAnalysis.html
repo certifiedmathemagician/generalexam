@@ -3,6 +3,8 @@
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Added: Color Scheme made from https://www.colorxs.com/palette/editor/420f2c-6c1847-952263-bf2b7e-d64797-df71af-e89bc6?scheme=monochromatic
 -->
 <html>
 	<head>
@@ -11,6 +13,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<!-- The below is used for LaTex print and syntax. You must use \( \) to enter inline math mode. -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -52,16 +59,38 @@
 						<div class="inner">
 							<h1>Scientific Computing and Numerical Analysis </h1>
 							<h2 style="color: #7467DD;">Reccommended Texts or Study Materials </h2>
-							<p> A book  <br />
-							A paper </p>
-							
+							<ul>
+								<li>  Pattern Recognition and Machine Learning, Bishop  <a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf"> PDF </a> </li>
+								<li> Partial Differential Equation, Evans. </li> 
+								<li> The Elements of Statistical Learning, Hastie, Tibshirani, Friedman. <a href="https://www.sas.upenn.edu/~fdiebold/NoHesitations/BookAdvanced.pdf"> PDF </a> </li> 
+							</ul>
+
 							<h2 style="color: #7467DD;">Foundational Tools/Techniques/Ideas: </h2>
-							<p> a tool </p>
-							
+							<ul>
+								<li> Deep Learning </li>
+								<li> Brownian Motion </li>
+								<li> Parabolic PDEs </li>
+							</ul>
 							
 							<h2 style="color: #7467DD;"> Common Advisors and Committee Members </h2>
-							<p> A professor <br />
-							Another professor </p>
+							
+							<table>
+								<thead>
+									<tr>
+									  <th class="left-align"> Advisor 1 </th>
+									  <th class="left-align"> Advisor 2 </th>
+									  <th class="left-align"> Committee Member 1 </th>
+									  <th class="left-align"> Committee Member 2 </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="left-align"> Dr. Scott Baldridge </td>
+										<td class="left-align"> Dr. Xiaoliang Wan  </td>
+										<td class="left-align"> Dr. Hongchao Zhang </td>
+										<td class="left-align"> Dr. Jiuyi Zhu </td>
+									</tr>
+							</table>
 							
 							<h2 style="color: #7467DD;">Previously asked questions</h2>
 							<p> What is math? </p>
